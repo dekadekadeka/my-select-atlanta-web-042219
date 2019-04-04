@@ -1,10 +1,10 @@
 def my_select(collection)
  # your code here!
  i = 0
- while i < words.length
-   yield words[i]
-   words.even?
+ while i < collection.length
+   yield collection[i]
+   collection.even?
    i = i + 1
  end
- return words
+ return collection
 end
