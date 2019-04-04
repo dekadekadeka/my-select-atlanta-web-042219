@@ -6,6 +6,7 @@ def my_select(collection)
    yield collection[i]
    if collection[i].even?
      coll << collection[i]
+   end
    i = i + 1
  end
  return coll
